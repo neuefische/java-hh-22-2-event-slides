@@ -2,48 +2,65 @@ const students = [
 
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "nina_michalski",
+		id: "jens-falco_marecek",
 		// Name displayed on slide
-		name: "Nina Michalski",
-		app: "Snoople",
+		name: "Jens-Falco Marecek",
+		app: "Das Gefahrometer",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "capstone-michalski.herokuapp.com/",
+		domain: "gefahrometer-capstone.herokuapp.com/",
 		// Will be printed as written here
-		techStack: ["Java", "Spring", "Rest API", "React", "Docker", "MongoDB", "Heroku", "Maven", "TypeScript", "Git", "JUnit", "Postman"],
-		commits: 35,
-		pullRequests: 13,
+		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito","CSS","Postman"],
+		commits: 117,
+		pullRequests: 25,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "mobile",
 	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "ryan_shade",
+		id: "hunjoon_rhee",
 		// Name displayed on slide
-		name: "Ryan Shade",
-		app: "MotoGP World",
+		name: "Hunjoon Rhee",
+		app: "Running Route Advisor",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "motogp-world.herokuapp.com",
+		domain: "rra-capstone.herokuapp.com/",
 		// Will be printed as written here
-		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "Bootstrap", "Swiper", "Font-awesome", "Postman", "Axios", "TypeScript", "JavaScript", "HTML", "CSS", "GitHub"],
-		commits: 94,
-		pullRequests: 30,
+		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "CSS", "CI", "Sonar"],
+		commits: 91,
+		pullRequests: 22,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
-		device: "mobile/desktop", //looks better on full-desktop
+		device: "mobile/desktop",
 	},
+
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "nina_guo",
+		id: "leon_maar",
 		// Name displayed on slide
-		name: "Nina Guo",
-		app: "capstone-NFT-2022",
+		name: "Leon Maar",
+		app: "dev_MAID",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "capstone-nft-2022.herokuapp.com/",
+		domain: "",
 		// Will be printed as written here
-		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito","CSS","Postman"],
-		commits: 53,
-		pullRequests: 16,
+		techStack: ["Java", "Spring", "React", "MongoDB", "JUnit", "Maven", "TypeScript", "Postman", "Git", "Docker", "Rest-API"],
+		commits: 40,
+		pullRequests: 10,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "desktop",
+	},
+
+	{
+		// The ID is used to find images and videos: firstname_lastname
+		id: "marek_schuetze",
+		// Name displayed on slide
+		name: "Marek Schütze",
+		app: "YouLearners",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "youlearners.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "Spring Boot", "React", "MongoDB", "JUnit", "CSS", "HTML", "Maven", "TypeScript", "Postman", "Git", "Docker", "CI/CD", "Bootstrap"],
+		commits: 49,
+		pullRequests: 13,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "mobile/desktop", //looks better on full-desktop
 	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
@@ -62,63 +79,49 @@ const students = [
 	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "marek_schuetze",
+		id: "nina_guo",
 		// Name displayed on slide
-		name: "Marek Schütze",
-		app: "YouLearners",
+		name: "Nina Guo",
+		app: "capstone-NFT-2022",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "youlearners.herokuapp.com/",
-		// Will be printed as written here
-		techStack: ["Java", "Spring Boot", "React", "MongoDB", "JUnit", "CSS", "HTML", "Maven", "TypeScript", "Postman", "Git", "Docker", "CI/CD", "Bootstrap"],
-		commits: 49,
-		pullRequests: 13,
-		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
-		device: "mobile/desktop", //looks better on full-desktop
-	},
-	{
-		// The ID is used to find images and videos: firstname_lastname
-		id: "hunjoon_rhee",
-		// Name displayed on slide
-		name: "Hunjoon Rhee",
-		app: "Running Route Advisor",
-		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "rra-capstone.herokuapp.com/",
-		// Will be printed as written here
-		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "CSS", "CI", "Sonar"],
-		commits: 91,
-		pullRequests: 22,
-		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
-		device: "mobile/desktop",
-	},
-	{
-		// The ID is used to find images and videos: firstname_lastname
-		id: "jens-falco_marecek",
-		// Name displayed on slide
-		name: "Jens-Falco Marecek",
-		app: "Das Gefahrometer",
-		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "gefahrometer-capstone.herokuapp.com/",
+		domain: "capstone-nft-2022.herokuapp.com/",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito","CSS","Postman"],
-		commits: 117,
-		pullRequests: 25,
+		commits: 53,
+		pullRequests: 16,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "desktop",
+	},
+	{
+		// The ID is used to find images and videos: firstname_lastname
+		id: "nina_michalski",
+		// Name displayed on slide
+		name: "Nina Michalski",
+		app: "Snoople",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "capstone-michalski.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "Spring", "Rest API", "React", "Docker", "MongoDB", "Heroku", "Maven", "TypeScript", "Git", "JUnit", "Postman"],
+		commits: 35,
+		pullRequests: 13,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "mobile",
 	},
+
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "leon_maar",
+		id: "ryan_shade",
 		// Name displayed on slide
-		name: "Leon Maar",
-		app: "dev_MAID",
+		name: "Ryan Shade",
+		app: "MotoGP World",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "",
+		domain: "motogp-world.herokuapp.com",
 		// Will be printed as written here
-		techStack: ["Java", "Spring", "React", "MongoDB", "JUnit", "Maven", "TypeScript", "Postman", "Git", "Docker", "Rest-API"],
-		commits: 40,
-		pullRequests: 10,
+		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "Bootstrap", "Swiper", "Font-awesome", "Postman", "Axios", "TypeScript", "JavaScript", "HTML", "CSS", "GitHub"],
+		commits: 94,
+		pullRequests: 30,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
-		device: "desktop",
+		device: "mobile/desktop", //looks better on full-desktop
 	},
 ];
 
