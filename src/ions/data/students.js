@@ -2,6 +2,21 @@ const students = [
 
 	{
 		// The ID is used to find images and videos: firstname_lastname
+		id: "amir_tafkhimi",
+		// Name displayed on slide
+		name: "Amir Tafkhimi",
+		app: "Travel App",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "am-capstone-travel.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito"],
+		commits: 49,
+		pullRequests: 13,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "mobile",
+	},
+	{
+		// The ID is used to find images and videos: firstname_lastname
 		id: "jens-falco_marecek",
 		// Name displayed on slide
 		name: "Jens-Falco Marecek",
@@ -152,6 +167,21 @@ const students = [
 		pullRequests: 50,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "mobile/desktop",
+	},
+	{
+		// The ID is used to find images and videos: firstname_lastname
+		id: "amir_tafkhimi",
+		// Name displayed on slide
+		name: "Amir Tafkhimi",
+		app: "Travel App",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "am-capstone-travel.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito"],
+		commits: 49,
+		pullRequests: 13,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "mobile",
 	},
 ];
 
