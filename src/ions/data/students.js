@@ -9,7 +9,7 @@ const students = [
 		domain: "https://motogp-world.herokuapp.com",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "Bootstrap", "Swiper", "Font-awesome", "Postman", "Axios", "TypeScript", "JavaScript", "HTML", "CSS", "GitHub"],
-		commits: 90,
+		commits: 94,
 		pullRequests: 30,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "mobile/desktop", //looks better on full-desktop
