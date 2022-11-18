@@ -31,7 +31,7 @@ const students = [
 	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "Mirko_Vöbel",
+		id: "mirko_vöbel",
 		// Name displayed on slide
 		name: "Mirko Vöbel",
 		app: "Fancy Party App",
