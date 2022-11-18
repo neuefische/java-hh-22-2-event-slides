@@ -20,8 +20,8 @@ const students = [
 		// Name displayed on slide
 		name: "Amir Tafkhimi",
 		app: "Travel App",
-		// Optional. If set, the Domain will be shown on the slide, e.g. https://my-capstone.herokuapp.com
-		domain: "https://am-capstone-travel.herokuapp.com/",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "am-capstone-travel.herokuapp.com/",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito"],
 		commits: 49,
