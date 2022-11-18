@@ -61,7 +61,21 @@ const students = [
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "desktop",
 	},
-
+	{
+		// The ID is used to find images and videos: firstname_lastname
+		id: "galina_kolesnikova",
+		// Name displayed on slide
+		name: "Galina Kolesnikova",
+		app: "Sights from Hamburg",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "https://sehenswuerdigkeiten-hamburg.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "TypeScript", "Spring", "React", "MongoDB", "JUnit", "Axios", "Maven", "Heroku", "HTML", "CSS", "Bootstrap", "Postman", "Git", "Docker", "Mockito", "Rest-API", "CI"],
+		commits: 74,
+		pullRequests: 11,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "desktop",
+	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
 		id: "marek_schuetze",
