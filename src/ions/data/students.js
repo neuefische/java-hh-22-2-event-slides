@@ -16,18 +16,18 @@ const students = [
 	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "max_muster",
+		id: "nina_michalski",
 		// Name displayed on slide
-		name: "Max Muster",
-		app: "Capstone 9000",
+		name: "Nina Michalski",
+		app: "Snoople",
 		// Optional. If set, the Domain will be shown on the slide, e.g. https://my-capstone.herokuapp.com
-		domain: "https://my-capstone.herokuapp.com",
+		domain: "https://capstone-michalski.herokuapp.com/",
 		// Will be printed as written here
-		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito"],
-		commits: 12,
-		pullRequests: 2,
+		techStack: ["Java", "Spring", "Rest API", "React", "Docker", "MongoDB", "Heroku", "Maven", "TypeScript", "Git", "JUnit", "Postman"],
+		commits: 35,
+		pullRequests: 13,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
-		device: "mobile/desktop",
+		device: "mobile",
 	},
 ];
 
