@@ -1,18 +1,18 @@
 const students = [
 	{
 		// The ID is used to find images and videos: firstname_lastname
-		id: "",
+		id: "ryan_shade",
 		// Name displayed on slide
-		name: "",
-		app: "",
+		name: "Ryan Shade",
+		app: "MotoGP World",
 		// Optional. If set, the Domain will be shown on the slide, e.g. https://my-capstone.herokuapp.com
-		domain: "",
+		domain: "https://motogp-world.herokuapp.com",
 		// Will be printed as written here
-		techStack: [],
-		commits: 0,
-		pullRequests: 0,
+		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "Bootstrap", "Swiper", "Font-awesome", "Postman", "Axios", "TypeScript", "JavaScript", "HTML", "CSS", "GitHub"],
+		commits: 90,
+		pullRequests: 30,
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
-		device: "mobile/desktop",
+		device: "mobile/desktop", //looks better on full-desktop
 	},
 	{
 		// The ID is used to find images and videos: firstname_lastname
