@@ -21,8 +21,8 @@ const students = [
 		// Name displayed on slide
 		name: "Ryan Shade",
 		app: "MotoGP World",
-		// Optional. If set, the Domain will be shown on the slide, e.g. https://my-capstone.herokuapp.com
-		domain: "https://motogp-world.herokuapp.com",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "motogp-world.herokuapp.com",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "Bootstrap", "Swiper", "Font-awesome", "Postman", "Axios", "TypeScript", "JavaScript", "HTML", "CSS", "GitHub"],
 		commits: 94,
@@ -81,8 +81,8 @@ const students = [
 		// Name displayed on slide
 		name: "Hunjoon Rhee",
 		app: "Running Route Advisor",
-		// Optional. If set, the Domain will be shown on the slide, e.g. https://my-capstone.herokuapp.com
-		domain: "https://rra-capstone.herokuapp.com/",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "rra-capstone.herokuapp.com/",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "CSS", "CI", "Sonar"],
 		commits: 91,
@@ -97,7 +97,7 @@ const students = [
 		name: "Jens-Falco Marecek",
 		app: "Das Gefahrometer",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "https://gefahrometer-capstone.herokuapp.com/",
+		domain: "gefahrometer-capstone.herokuapp.com/",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito","CSS","Postman"],
 		commits: 117,
