@@ -123,6 +123,22 @@ const students = [
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "mobile/desktop", //looks better on full-desktop
 	},
+	{
+		// The ID is used to find images and videos: firstname_lastname
+		id: "sebastian_witt",
+		// Name displayed on slide
+		name: "Sebastian Witt",
+		app: "Make It Take It",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "capstone-michalski.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "Spring", "React", "CSS", "HTML", "React", "Docker", "MongoDB", "Heroku", "Maven", "TypeScript", "Git", "JUnit", "Postman"],
+		commits: 60,
+		pullRequests: 13,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "mobile",
+	},
 ];
+
 
 export default students;
