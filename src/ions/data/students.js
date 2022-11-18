@@ -138,6 +138,21 @@ const students = [
 		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
 		device: "mobile",
 	},
+	{
+		// The ID is used to find images and videos: firstname_lastname
+		id: "ilker_yildirim",
+		// Name displayed on slide
+		name: "Ilker Yildirim",
+		app: "Check & Computify",
+		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
+		domain: "check-computify.herokuapp.com/",
+		// Will be printed as written here
+		techStack: ["Java", "Spring Boot", "React", "MongoDB", "JUnit", "CSS", "HTML", "Maven", "TypeScript", "Postman", "Git", "GitHub", "Docker", "Bootstrap", "SQL", "Mockito"],
+		commits: 172,
+		pullRequests: 50,
+		//'mobile', 'tablet_portrait', 'tablet_landscape', 'desktop'
+		device: "mobile/desktop",
+	},
 ];
 
 
