@@ -191,7 +191,7 @@ const students = [
 		name: "Sebastian Täufer",
 		app: "Garbicz Barmanagement App",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "https://garbicz-barmanagement-capstone.herokuapp.com/#/",
+		domain: "garbicz-barmanagement-capstone.herokuapp.com/#/",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "Maven", "TypeScript", "React", "Git", "MongoDB", "Rest API", "JUnit", "Docker", "Mockito", "Postman", "Bootstrap", ],
 		commits: 107,
