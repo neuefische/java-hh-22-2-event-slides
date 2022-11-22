@@ -6,7 +6,7 @@ import { students } from "../../ions/data";
 const Agenda = dynamic(() => import("../../templates/slides/agenda"));
 const Capstone = dynamic(() => import("../../templates/slides/capstone"));
 const Congrats = dynamic(() => import("../../templates/slides/congrats"));
-const Dalia = dynamic(() => import("../../templates/slides/dalia"));
+//const Dalia = dynamic(() => import("../../templates/slides/dalia"));
 const Laudatio = dynamic(() => import("../../templates/slides/laudatio"));
 const NeueFische = dynamic(() => import("../../templates/slides/neue-fische"));
 const Pitches = dynamic(() => import("../../templates/slides/pitches"));
@@ -14,7 +14,7 @@ const Review = dynamic(() => import("../../templates/slides/review"));
 const ReviewBootcamp = dynamic(() => import("../../templates/slides/review-bootcamp"));
 const ReviewGithub = dynamic(() => import("../../templates/slides/review-github"));
 const ReviewGraduation = dynamic(() => import("../../templates/slides/review-graduation"));
-const ReviewStudents = dynamic(() => import("../../templates/slides/review-students"));
+// const ReviewStudents = dynamic(() => import("../../templates/slides/review-students"));
 const Student = dynamic(() => import("../../templates/slides/student"));
 const Team = dynamic(() => import("../../templates/slides/team"));
 const TeamCoaches = dynamic(() => import("../../templates/slides/team-coaches"));
@@ -31,7 +31,7 @@ const slides = [
 	Welcome,
 	NeueFische,
 	Agenda,
-	Dalia,
+	// Dalia,
 	Laudatio,
 	ReviewBootcamp,
 	Review,

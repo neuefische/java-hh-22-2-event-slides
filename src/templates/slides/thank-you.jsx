@@ -1,5 +1,6 @@
 import React from "react";
 import Cover from "../cover";
+import Image from "../image";
 
 const Slide = () =>
 	<>
