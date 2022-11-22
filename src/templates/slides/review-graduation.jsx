@@ -28,7 +28,7 @@ const Slide = () => (
 			</List>
 		}
 		title="Revue"
-		subtitle="Gesellenstück"
+		subtitle="Capstone"
 	/>
 );
 
