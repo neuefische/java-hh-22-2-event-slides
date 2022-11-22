@@ -190,7 +190,7 @@ const students = [
 		name: "Sebastian Witt",
 		app: "Make It Take It",
 		// Optional. If set, the Domain will be shown on the slide, e.g. my-capstone.herokuapp.com
-		domain: "capstone-michalski.herokuapp.com",
+		domain: "capstone-miti.herokuapp.com",
 		// Will be printed as written here
 		techStack: ["Java", "Spring", "React", "CSS", "HTML", "React", "Docker", "MongoDB", "Heroku", "Maven", "TypeScript", "Git", "JUnit", "Postman"],
 		commits: 60,
@@ -199,6 +199,7 @@ const students = [
 		device: "mobile",
 	},
 ];
+
 
 
 export default students;
